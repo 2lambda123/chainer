@@ -1,0 +1,198 @@
+repo_name: 2lambda123/chainer
+report_id: b52b92ec7a6948b7200d4418d90daf8e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:18+00:00'
+requested_by: emcastillo
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/examples/wavenet/requirements.txt
+  detection_source: examples/wavenet/requirements.txt
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/codecov.yml
+  detection_source: codecov.yml
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/examples/wavenet/requirements.txt
+  detection_source: examples/wavenet/requirements.txt
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+- name: scikit-image
+  description: Image processing in Python
+  website_url: http://scikit-image.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/examples/pix2pix/requirements.txt
+  detection_source: examples/pix2pix/requirements.txt
+- name: CUDA
+  description: It provides everything you need to develop GPU-accelerated applications
+  website_url: http://www.nvidia.com/object/cuda_home_new.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2836/LUOWehvo_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/chainer
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/docker/intel/python3/Dockerfile
+  detection_source: docker/intel/python3/Dockerfile
+- name: chainer
+  description: A flexible framework of neural networks
+  package_url: https://pypi.org/project/chainer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/examples/pix2pix/requirements.txt
+  detection_source: examples/pix2pix/requirements.txt
+- name: librosa
+  description: Python module for audio and music processing
+  package_url: https://pypi.org/project/librosa
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/examples/wavenet/requirements.txt
+  detection_source: examples/wavenet/requirements.txt
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/2lambda123/chainer/blob/master/examples/wavenet/requirements.txt
+  detection_source: examples/wavenet/requirements.txt
